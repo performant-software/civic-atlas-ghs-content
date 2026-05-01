@@ -78,10 +78,10 @@
         "title": "name"
       },
       "typesense": {
-        "host": "urfi7goc64smlj28p-1.a2.typesense.net",
+        "host": "i74olkjcuy69ze2vp-1.a1.typesense.net",
         "port": 443,
         "protocol": "https",
-        "api_key": "NNOE2b4GH1CR2k8OOVnAQhaQD8Rnzv9t",
+        "api_key": "BP0HdaBHwj46VoVgSW5ltmunXEoPWnQf",
         "index_name": "civic_atlas_ghs_places",
         "query_by": "name"
       }
@@ -99,10 +99,10 @@
         "title": "name"
       },
       "typesense": {
-        "host": "urfi7goc64smlj28p-1.a2.typesense.net",
+        "host": "i74olkjcuy69ze2vp-1.a1.typesense.net",
         "port": 443,
         "protocol": "https",
-        "api_key": "NNOE2b4GH1CR2k8OOVnAQhaQD8Rnzv9t",
+        "api_key": "BP0HdaBHwj46VoVgSW5ltmunXEoPWnQf",
         "index_name": "civic_atlas_ghs_organizations",
         "query_by": "name"
       }
@@ -120,10 +120,10 @@
         "title": "name"
       },
       "typesense": {
-        "host": "urfi7goc64smlj28p-1.a2.typesense.net",
+        "host": "i74olkjcuy69ze2vp-1.a1.typesense.net",
         "port": 443,
         "protocol": "https",
-        "api_key": "NNOE2b4GH1CR2k8OOVnAQhaQD8Rnzv9t",
+        "api_key": "BP0HdaBHwj46VoVgSW5ltmunXEoPWnQf",
         "index_name": "civic_atlas_ghs_people",
         "query_by": "name"
       }
@@ -141,10 +141,10 @@
         "title": "name"
       },
       "typesense": {
-        "host": "urfi7goc64smlj28p-1.a2.typesense.net",
+        "host": "i74olkjcuy69ze2vp-1.a1.typesense.net",
         "port": 443,
         "protocol": "https",
-        "api_key": "NNOE2b4GH1CR2k8OOVnAQhaQD8Rnzv9t",
+        "api_key": "BP0HdaBHwj46VoVgSW5ltmunXEoPWnQf",
         "index_name": "civic_atlas_ghs_events",
         "query_by": "name"
       }
