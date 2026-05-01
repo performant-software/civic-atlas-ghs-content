@@ -9,9 +9,9 @@
     ]
   },
   "core_data": {
-    "url": "https://app.coredata.cloud",
+    "url": "https://staging.coredata.cloud",
     "project_ids": [
-      "REPLACE_WITH_NEW_FAIRDATA_PROJECT_ID"
+      "241"
     ]
   },
   "detail_pages": {
@@ -91,7 +91,7 @@
       "route": "/organizations",
       "geosearch": true,
       "map": {
-        "geometry": "69af3522-0ab3-4e67-89d1-f86549503261.geometry",
+        "geometry": "af020f85-5fc5-4908-b7c9-8730cef0e509.geometry",
         "max_zoom": 14,
         "zoom_to_place": true
       },
@@ -112,7 +112,7 @@
       "route": "/people",
       "geosearch": true,
       "map": {
-        "geometry": "8642fc8b-9b01-483e-8362-db3375e1f821.geometry",
+        "geometry": "c64d28e0-06d2-4267-bc71-051ab0670735.geometry",
         "max_zoom": 14,
         "zoom_to_place": true
       },
@@ -133,7 +133,7 @@
       "route": "/events",
       "geosearch": true,
       "map": {
-        "geometry": "7ab73736-5071-41c8-9785-5268e06203ef.geometry",
+        "geometry": "2b8584d8-f1cc-470e-a22d-60609382ea85.geometry",
         "max_zoom": 14,
         "zoom_to_place": true
       },
