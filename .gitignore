@@ -1,1 +1,5 @@
 .idea
+# Local Netlify folder
+.netlify
+# Local-only migration artifacts (FairData export ZIPs etc.)
+/data/

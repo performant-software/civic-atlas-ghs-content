@@ -11,7 +11,7 @@
   "core_data": {
     "url": "https://staging.coredata.cloud",
     "project_ids": [
-      "241"
+      "242"
     ]
   },
   "detail_pages": {
@@ -91,7 +91,7 @@
       "route": "/organizations",
       "geosearch": true,
       "map": {
-        "geometry": "af020f85-5fc5-4908-b7c9-8730cef0e509.geometry",
+        "geometry": "91ab4e9e-ee4a-4a29-a64d-916871e538f2.geometry",
         "max_zoom": 14,
         "zoom_to_place": true
       },
@@ -112,7 +112,7 @@
       "route": "/people",
       "geosearch": true,
       "map": {
-        "geometry": "c64d28e0-06d2-4267-bc71-051ab0670735.geometry",
+        "geometry": "301ebbe0-2260-4b4e-a62d-db79406ed53f.geometry",
         "max_zoom": 14,
         "zoom_to_place": true
       },
@@ -133,7 +133,7 @@
       "route": "/events",
       "geosearch": true,
       "map": {
-        "geometry": "2b8584d8-f1cc-470e-a22d-60609382ea85.geometry",
+        "geometry": "ab80fa91-c0fb-40f8-b9d1-f05f5748e50c.geometry",
         "max_zoom": 14,
         "zoom_to_place": true
       },
