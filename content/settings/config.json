@@ -82,7 +82,7 @@
         "port": 443,
         "protocol": "https",
         "api_key": "BP0HdaBHwj46VoVgSW5ltmunXEoPWnQf",
-        "index_name": "civic_atlas_ghs_places",
+        "index_name": "navigating_change_ghs_places",
         "query_by": "name"
       }
     },
@@ -103,7 +103,7 @@
         "port": 443,
         "protocol": "https",
         "api_key": "BP0HdaBHwj46VoVgSW5ltmunXEoPWnQf",
-        "index_name": "civic_atlas_ghs_organizations",
+        "index_name": "navigating_change_ghs_organizations",
         "query_by": "name"
       }
     },
@@ -124,7 +124,7 @@
         "port": 443,
         "protocol": "https",
         "api_key": "BP0HdaBHwj46VoVgSW5ltmunXEoPWnQf",
-        "index_name": "civic_atlas_ghs_people",
+        "index_name": "navigating_change_ghs_people",
         "query_by": "name"
       }
     },
@@ -145,7 +145,7 @@
         "port": 443,
         "protocol": "https",
         "api_key": "BP0HdaBHwj46VoVgSW5ltmunXEoPWnQf",
-        "index_name": "civic_atlas_ghs_events",
+        "index_name": "navigating_change_ghs_events",
         "query_by": "name"
       }
     }
