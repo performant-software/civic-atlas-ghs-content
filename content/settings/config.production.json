@@ -1,0 +1,153 @@
+{
+  "branding": {
+    "footer_login": true
+  },
+  "content": {
+    "collections": [
+      "paths",
+      "posts"
+    ]
+  },
+  "core_data": {
+    "url": "https://staging.coredata.cloud",
+    "project_ids": [
+      "242"
+    ]
+  },
+  "detail_pages": {
+    "models": {
+      "organizations": {},
+      "places": {},
+      "events": {},
+      "people": {}
+    }
+  },
+  "i18n": {
+    "default_locale": "en",
+    "locales": [
+      "en"
+    ]
+  },
+  "layers": [
+    {
+      "name": "Johnson's map of New York and the adjacent cities",
+      "layer_type": "georeference",
+      "url": "https://core-data-map-library.s3.us-east-1.amazonaws.com/01.json",
+      "overlay": true,
+      "default": true
+    },
+    {
+      "name": "Maptiler DataViz Style",
+      "layer_type": "vector",
+      "url": "https://api.maptiler.com/maps/dataviz/style.json?key=DICl11L0kocVzMWdoynh"
+    },
+    {
+      "name": "USGS Imagery Topo (MapServer)",
+      "layer_type": "raster",
+      "url": "https://basemap.nationalmap.gov/arcgis/services/USGSImageryTopo/MapServer/WMSServer?bbox={bbox-epsg-3857}&format=image/png&service=WMS&version=1.1.1&request=GetMap&srs=EPSG:3857&transparent=true&width=256&height=256&layers=0&styles=default"
+    },
+    {
+      "name": "USGS Topo (MapServer)",
+      "layer_type": "raster",
+      "url": "https://basemap.nationalmap.gov/arcgis/services/USGSTopo/MapServer/WMSServer?bbox={bbox-epsg-3857}&format=image/png&service=WMS&version=1.1.1&request=GetMap&srs=EPSG:3857&transparent=true&width=256&height=256&layers=0&styles=default"
+    },
+    {
+      "name": "New Jersey Natural Earth (WMS)",
+      "layer_type": "raster",
+      "url": "https://img.nj.gov/imagerywms/Natural2015?bbox={bbox-epsg-3857}&format=image/png&service=WMS&version=1.1.1&request=GetMap&srs=EPSG:3857&transparent=true&width=256&height=256&layers=Natural2015",
+      "overlay": true
+    },
+    {
+      "name": "US States",
+      "layer_type": "geojson",
+      "url": "gz_2010_us_040_00_20m.json",
+      "overlay": true
+    }
+  ],
+  "search": [
+    {
+      "name": "places",
+      "route": "/places",
+      "geosearch": true,
+      "map": {
+        "geometry": "geometry",
+        "max_zoom": 14,
+        "zoom_to_place": true
+      },
+      "result_card": {
+        "title": "name"
+      },
+      "typesense": {
+        "host": "i74olkjcuy69ze2vp-1.a1.typesense.net",
+        "port": 443,
+        "protocol": "https",
+        "api_key": "BP0HdaBHwj46VoVgSW5ltmunXEoPWnQf",
+        "index_name": "civic_atlas_ghs_places",
+        "query_by": "name"
+      }
+    },
+    {
+      "name": "organizations",
+      "route": "/organizations",
+      "geosearch": true,
+      "map": {
+        "geometry": "91ab4e9e-ee4a-4a29-a64d-916871e538f2.geometry",
+        "max_zoom": 14,
+        "zoom_to_place": true
+      },
+      "result_card": {
+        "title": "name"
+      },
+      "typesense": {
+        "host": "i74olkjcuy69ze2vp-1.a1.typesense.net",
+        "port": 443,
+        "protocol": "https",
+        "api_key": "BP0HdaBHwj46VoVgSW5ltmunXEoPWnQf",
+        "index_name": "civic_atlas_ghs_organizations",
+        "query_by": "name"
+      }
+    },
+    {
+      "name": "people",
+      "route": "/people",
+      "geosearch": true,
+      "map": {
+        "geometry": "301ebbe0-2260-4b4e-a62d-db79406ed53f.geometry",
+        "max_zoom": 14,
+        "zoom_to_place": true
+      },
+      "result_card": {
+        "title": "name"
+      },
+      "typesense": {
+        "host": "i74olkjcuy69ze2vp-1.a1.typesense.net",
+        "port": 443,
+        "protocol": "https",
+        "api_key": "BP0HdaBHwj46VoVgSW5ltmunXEoPWnQf",
+        "index_name": "civic_atlas_ghs_people",
+        "query_by": "name"
+      }
+    },
+    {
+      "name": "events",
+      "route": "/events",
+      "geosearch": true,
+      "map": {
+        "geometry": "ab80fa91-c0fb-40f8-b9d1-f05f5748e50c.geometry",
+        "max_zoom": 14,
+        "zoom_to_place": true
+      },
+      "result_card": {
+        "title": "name"
+      },
+      "typesense": {
+        "host": "i74olkjcuy69ze2vp-1.a1.typesense.net",
+        "port": 443,
+        "protocol": "https",
+        "api_key": "BP0HdaBHwj46VoVgSW5ltmunXEoPWnQf",
+        "index_name": "civic_atlas_ghs_events",
+        "query_by": "name"
+      }
+    }
+  ]
+}
