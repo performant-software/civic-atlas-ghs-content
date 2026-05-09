@@ -9,9 +9,9 @@
     ]
   },
   "core_data": {
-    "url": "https://staging.coredata.cloud",
+    "url": "https://app.coredata.cloud",
     "project_ids": [
-      "242"
+      "106"
     ]
   },
   "detail_pages": {
@@ -78,10 +78,10 @@
         "title": "name"
       },
       "typesense": {
-        "host": "i74olkjcuy69ze2vp-1.a1.typesense.net",
+        "host": "jzepain61xgwvoqup-1.a2.typesense.net",
         "port": 443,
         "protocol": "https",
-        "api_key": "9ncLvqkUyk2P2olg90d5H8iZpP2MQidn",
+        "api_key": "3yk1SuwcD22jNCEDlmppINuRiu0Hs3Ym",
         "index_name": "navigating_change_ghs_places",
         "query_by": "name"
       }
@@ -91,7 +91,7 @@
       "route": "/organizations",
       "geosearch": true,
       "map": {
-        "geometry": "91ab4e9e-ee4a-4a29-a64d-916871e538f2.geometry",
+        "geometry": "27e9576b-e82e-41f4-846d-0d5ce5511777.geometry",
         "max_zoom": 14,
         "zoom_to_place": true
       },
@@ -99,10 +99,10 @@
         "title": "name"
       },
       "typesense": {
-        "host": "i74olkjcuy69ze2vp-1.a1.typesense.net",
+        "host": "jzepain61xgwvoqup-1.a2.typesense.net",
         "port": 443,
         "protocol": "https",
-        "api_key": "9ncLvqkUyk2P2olg90d5H8iZpP2MQidn",
+        "api_key": "3yk1SuwcD22jNCEDlmppINuRiu0Hs3Ym",
         "index_name": "navigating_change_ghs_organizations",
         "query_by": "name"
       }
@@ -112,7 +112,7 @@
       "route": "/people",
       "geosearch": true,
       "map": {
-        "geometry": "301ebbe0-2260-4b4e-a62d-db79406ed53f.geometry",
+        "geometry": "0653bea0-af90-41c4-a312-0e621dbe6de9.geometry",
         "max_zoom": 14,
         "zoom_to_place": true
       },
@@ -120,10 +120,10 @@
         "title": "name"
       },
       "typesense": {
-        "host": "i74olkjcuy69ze2vp-1.a1.typesense.net",
+        "host": "jzepain61xgwvoqup-1.a2.typesense.net",
         "port": 443,
         "protocol": "https",
-        "api_key": "9ncLvqkUyk2P2olg90d5H8iZpP2MQidn",
+        "api_key": "3yk1SuwcD22jNCEDlmppINuRiu0Hs3Ym",
         "index_name": "navigating_change_ghs_people",
         "query_by": "name"
       }
@@ -133,7 +133,7 @@
       "route": "/events",
       "geosearch": true,
       "map": {
-        "geometry": "ab80fa91-c0fb-40f8-b9d1-f05f5748e50c.geometry",
+        "geometry": "92e1c223-3815-4eea-b41c-c8448fe0689b.geometry",
         "max_zoom": 14,
         "zoom_to_place": true
       },
@@ -141,10 +141,10 @@
         "title": "name"
       },
       "typesense": {
-        "host": "i74olkjcuy69ze2vp-1.a1.typesense.net",
+        "host": "jzepain61xgwvoqup-1.a2.typesense.net",
         "port": 443,
         "protocol": "https",
-        "api_key": "9ncLvqkUyk2P2olg90d5H8iZpP2MQidn",
+        "api_key": "3yk1SuwcD22jNCEDlmppINuRiu0Hs3Ym",
         "index_name": "navigating_change_ghs_events",
         "query_by": "name"
       }
